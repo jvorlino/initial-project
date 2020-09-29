@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<body>
+  
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+  <a class="navbar-brand" href="#">
+        <img src="C:\Users\jvorlino\Documents\Projects\initial-project\panelco i logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> Panelco I
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home-page.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Create<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="view.html">Update<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- Nav Bar -->
+    <div class="container-fluid">
+          <div class="row">
+<div class="col-sm-4">
+      <p class="text-left font-weight-bold font-italic">POLE DATA</p>      
+<form>
+                <div class="form-row">
+                  <div class="col-sm-12 mb-1">
+                       <label for="validationDefault01">Source</label>
+                       <input type="text" class="form-control" id="validationDefault01" placeholder="From BusID" value="">
+                 </div>
+                     <div class="col-sm-12 mb-1">
+                       <label for="validationDefault02">Pole ID</label>
+                       <input type="text" class="form-control" id="validationDefault02" placeholder="To Bus ID" value="">
+                     </div>
+                 <div class="col-sm-12 mb-1">
+                       <label for="validationDefault02">Feeder ID</label>
+                       <input type="text" class="form-control" id="validationDefault02" placeholder="Feeder Number" value="">
+                 </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="col-sm-12 mb-1">
+                    <label for="validationDefault03">Purok</label>
+                    <input type="text" class="form-control" id="validationDefault03" placeholder="Purok" required>
+                  </div>
+                  <div class="col-sm-12 mb-3">
+                    <label for="validationDefault04">Barangay</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Barangay" required>
+                  </div>
+                  <div class="input-group col-sm-12 mb-1">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputGroupSelect01">Municipality</label>
+                    </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected></option>
+                            <option value="1">Agno</option>
+                            <option value="2">Alaminos City</option>
+                            <option value="3">Anda</option>
+                            <option value="4">Bani</option>
+                            <option value="5">Bolinao</option>
+                            <option value="6">Burgos</option>
+                            <option value="7">Dasol</option>
+                            <option value="8">Infanta</option>
+                            <option value="9">Mabini</option>
+                        </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Phasing</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Phasing" required>
+                  </div>
+                  <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Length</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Meters" required>
+                  </div>
+                  <div class="col-sm-12 mb-3">
+                    <label for="validationDefault04">Pole Construction</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Pole Construction" required>
+                  </div>
+                  <div class="input-group col-sm-12 mb-1">
+                      <div class="input-group-prepend">
+                          <label class="input-group-text" for="inputGroupSelect01">Pole Configuration</label>
+                      </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected></option>
+                              <option value="1">Horizontal</option>
+                              <option value="2">Triangular</option>
+                              <option value="3">Vertical</option>
+                            </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Neutral Construction</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Neutral Construction" required>
+                  </div>
+                <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Pole Type</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Pole Type" required>
+                </div>
+                <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Pole Height</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Pole Height" required>
+                </div>
+                <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Conductor Type</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Conductor Type" required>
+                </div>
+                <div class="col-sm-12 mb-1">
+                    <label for="validationDefault04">Conductor Size</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="Conductor Size" required>
+                </div>
+                </div>
+            <div class="form-row">
+              <div class="col-sm-12 mb-1">
+                <label for="validationDefault04">Date Modified</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Date Modified" required>
+              </div>
+              <div class="col-sm-12 mb-1">
+                <label for="validationDefault04">Date Installed</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Date Installed" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-sm-12 mb-1">
+                <label for="validationDefault04">Remarks</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Remarks" required>
+              </div>
+              <div class="col-sm-12 mb-1">
+                <label for="validationDefault04">Cause</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Cause" required>
+              </div>
+            </div>
+</form>
+</div>
+
+             <div class="col-sm-4">
+                <p class="text-center font-weight-bold font-italic">TRANSFORMER DATA</p>
+              <div class="container">
+<form>
+                  <div class="form-row">
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault01">Transformer ID</label>
+                      <input type="text" class="form-control" id="validationDefault01" placeholder="Transformer Tag" value="">
+                    </div>
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault02">Pole ID</label>
+                      <input type="text" class="form-control" id="validationDefault02" placeholder="To Bus ID" value="">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Phasing</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Phasing" required>
+                    </div>
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">No. DT's in Bank</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Number of Transformer" required>
+                    </div>
+                    <div class="col-sm-12 mb-3">
+                      <label for="validationDefault04">Connection</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Connection" required>
+                    </div>
+                    <div class="col-sm-12 mb-3">
+                      <label for="validationDefault04">KVA Rating</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="KVA Rating" required>
+                    </div>
+                    <div class="input-group col-sm-12 mb-1">
+                      <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Transformer Type</label>
+                      </div>
+                      <select class="custom-select" id="inputGroupSelect01">
+                        <option selected></option>
+                        <option value="1">Utility</option>
+                        <option value="2">Private</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Transformer Brand</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Transformer Brand" required>
+                    </div>
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Transformer Serial</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Transformer Serial" required>
+                    </div>
+                  </div>  
+                  <div class="form-row">
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Date Modified</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Date Modified" required>
+                    </div>
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Date Installed</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Date Installed" required>
+                    </div>
+                  </div>
+                  <div class="form-col">
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Remarks</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Remarks" required>
+                    </div>
+                    <div class="col-sm-12 mb-1">
+                      <label for="validationDefault04">Cause</label>
+                      <input type="text" class="form-control" id="validationDefault04" placeholder="Cause" required>
+                    </div>
+                  </div>
+</form>
+             </div>
+             </div>
+
+            <div class="col-sm-4">
+            <div class="container">
+<form>
+        <p class="text-right font-weight-bold font-italic">SECONDARY DATA</p>
+         <div class="form-row">
+          <div class="col-sm-12 mb-1">
+            <label for="validationDefault01">Secondary ID</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="Secondary ID" value="">
+          </div>
+          <div class="col-sm-12 mb-1">
+            <label for="validationDefault02">Transformer ID ID</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Transformer ID" value="">
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="col-sm-12 mb-1">
+              <label for="validationDefault04">PoleID</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="PoleID" required>
+            </div>
+            <div class="col-sm-12 mb-1">
+              <label for="validationDefault04">Phasing</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Phasing" required>
+            </div>
+            <div class="col-sm-12 mb-3">
+              <label for="validationDefault04">Installation Type</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Installation Type" required>
+            </div>
+            <div class="col-sm-12 mb-3">
+              <label for="validationDefault04">Lenght</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Meters" required>
+            </div>
+            <div class="col-sm-12 mb-3">
+              <label for="validationDefault04">Secondary Construction</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Secondary Construction" required>
+            </div>
+        </div> 
+        <div class="form-row">       
+          <div class="input-group col-sm-12 mb-1">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Conductor Type</label>
+            </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected></option>
+                <option value="1">AWG</option>
+                <option value="2"></option>
+              </select>
+          </div>
+          <div class="col-sm-12 mb-1">
+            <label for="validationDefault04">Conductor Size</label>
+            <input type="text" class="form-control" id="validationDefault04" placeholder="Conductor Size" required>
+          </div>
+        </div> 
+          <div class="form-row">
+            <div class="col-sm-12 mb-1">
+              <label for="validationDefault04">Date Modified</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Date Modified" required>
+            </div>
+            <div class="col-sm-12 mb-1">
+              <label for="validationDefault04">Date Installed</label>
+              <input type="text" class="form-control" id="validationDefault04" placeholder="Date Installed" required>
+            </div>
+          </div> 
+          <div class="form-col">
+              <div class="col-sm-12 mb-1">
+                <label for="validationDefault04">Remarks</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Remarks" required>
+              </div>
+              <div class="col-sm-12 mb-1">
+                <label for="validationDefault04">Cause</label>
+                <input type="text" class="form-control" id="validationDefault04" placeholder="Cause" required>
+              </div>
+          </div>
+</form>
+</div>
+</div>
+
+      <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="transformer-add.html">Prev</a></li>
+          <li class="page-item"><a class="page-link" href="transformer-add.html">Update</a></li>
+          <li class="page-item"><a class="page-link" href="transformer-add.html">Save</a></li>
+          <li class="page-item"><a class="page-link" href="transformer-add.html">Next</a></li>
+      </ul>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
